@@ -26,6 +26,11 @@ A fullstack platform for hosting, organizing, and participating in events, featu
 
 To set up the project locally, follow the [Getting Started Guide](./CONTRIBUTING.md#getting-started).
 
+
+## Contributors
+
+<img src="https://contrib.rocks/image?repo=building-for-fun/NetVibe" />
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
