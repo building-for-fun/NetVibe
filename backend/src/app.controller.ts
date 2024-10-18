@@ -2,14 +2,14 @@ import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 
-@ApiTags('App') // Group your controller's routes under 'App' tag in Swagger UI
+@ApiTags('App') 
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  @ApiOperation({ summary: 'Get a welcome message' }) // Document the operation
-  @ApiResponse({ status: 200, description: 'Return Hello World message' }) // Define a response
+  @ApiOperation({ summary: 'Get a welcome message' }) 
+  @ApiResponse({ status: 200, description: 'Return Hello World message' }) 
   getHello(): string {
     return this.appService.getHello();
   }
