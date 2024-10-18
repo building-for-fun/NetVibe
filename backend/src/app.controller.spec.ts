@@ -19,4 +19,11 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
   });
+
+  // Test case for the dummy API
+  describe('dummy', () => {
+    it('should return "This is dummy data"', () => {
+      expect(appController.getDummy()).toBe('This is dummy data');
+    });
+  });
 });
