@@ -1,10 +1,6 @@
 fileignoreconfig:
-- filename: frontend/package-lock.json
-  checksum: 8a5cd5eb441617ab02cb53bd4bd7278515463c8cd1c54abf3dfa66574db5ab85
 - filename: frontend/src/app/auth/auth.tsx
-  checksum: 3e224b96e2b3cbeeed25fc3b23aae602777b96854c15f6b1dfdb1fbc4732f8c4
-- filename: frontend/src/app/lib/types.tsx
-  checksum: 72aa08cae493e7078d23ae2bd5bd4d4dcc8af165f6fe3680e09e225aed1125d7
+  checksum: 4ffb9648d31740f2a6fff7fa3368d13d2bfaea047f2eb0f2bc342984ca1d633f
 - filename: frontend/src/app/signup/page.tsx
-  checksum: c39507c1ca4cdc75145e39511e5829617be13d211be0dd4b5739145c9c179007
+  checksum: 98adba90b3c2e6e6b2c9d43996a844467b8afb4881e606f9b22dbd5f239d69ea
 version: ""
