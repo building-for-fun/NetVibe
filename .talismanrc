@@ -1,6 +1,8 @@
 fileignoreconfig:
-- filename: frontend/src/app/auth/auth.tsx
-  checksum: 4ffb9648d31740f2a6fff7fa3368d13d2bfaea047f2eb0f2bc342984ca1d633f
-- filename: frontend/src/app/signup/page.tsx
-  checksum: 98adba90b3c2e6e6b2c9d43996a844467b8afb4881e606f9b22dbd5f239d69ea
+- filename: apis.rest
+  checksum: 2e52807fb85686dd07d53d8af0296040d2c4b0cd0e3389fee66bd9c86ad501c0
+- filename: backend/src/auth/auth.service.ts
+  checksum: b1e774f02679869d2647ea66be0b6f56163b3dff854af6f66b9512db235a2529
+- filename: backend/src/users/users.service.ts
+  checksum: d6456d97232e89cec4e3960ebb6d1b29d9d9cf571a23ec72035ea7de8e63c60f
 version: ""
